@@ -1,7 +1,6 @@
-plan:
-- fetch
-- first
-- second
+pipeline:
+  fetch:
+    first: second
 
 profiles:
   fetch:
